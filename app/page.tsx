@@ -4,12 +4,6 @@ import Amplify {TextAreaField} from '@aws-amplify/ui-react'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.center}>
-        <TextAreaField id="business_summary">
-          <Label>Provide Business Summary: </Label>
-        </TextAreaField>
-      </div>
-    </main>
+    "first print"
   )
 }
