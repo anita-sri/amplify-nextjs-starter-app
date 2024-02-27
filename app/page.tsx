@@ -6,9 +6,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-        <TextAreaField>
+        <TextAreaField id="business_summary">
           <Label>Provide Business Summary: </Label>
-          <id="business_summary" isRequired={true}></id>
         </TextAreaField>
       </div>
     </main>
