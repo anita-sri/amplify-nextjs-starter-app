@@ -1,8 +1,9 @@
-import styles from './page.module.css'
+import * as React from 'react';
+import { Button } from '@aws-amplify/ui-react';
+import '@aws-amplify/ui-react/styles.css';
 
-
-export default function Home() {
-  return (
-    "first print"
-  )
+function App() {
+  return <Button variation="primary">Hello world</Button>;
 }
+
+export default App;
