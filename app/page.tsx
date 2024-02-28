@@ -1,9 +1,11 @@
-import * as React from 'react';
-import { Button } from '@aws-amplify/ui-react';
-import '@aws-amplify/ui-react/styles.css';
+import '@aws-amplify/ui-react';
 
 function App() {
-  return <Button variation="primary">Hello world</Button>;
+    return (
+        <div>  
+            <h2> Provide Buiness Summary: </h2>
+            <textarea></textarea>
+            <button>Submit</button>
+        </div>
+        )
 }
-
-export default App;
